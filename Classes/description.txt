@@ -1,0 +1,54 @@
+They are among us...
+
+And that's quite obvious if you look at all those spaceships flying around. Humans fear them... First because it's said that everything attracted by those light beams never come out, and also since they have seen that one of the ships started to move after a goat entered it!
+
+[b]Any question or problem to use this mod? [url=http://steamcommunity.com/sharedfiles/filedetails/?id=314929396]Click here to read the FAQ.[/url][/b]
+
+[b]FEATURES[/b]
+- U.F.O.: You have your own personal drivable UFO.
+
+[b]COMMANDS[/b]
+- [b][R]:[/b] Press near a UFO en enter it.
+[h1]Driving UFO[/h1]
+- [b][Space]:[/b] Move up.
+- [b][RagdollKey]:[/b] Move down.
+- [b][E]:[/b] Enable/Dsable light beam.
+- [b][I]:[/b] Drop an item from the UFO hold.
+- [b][R]:[/b] Leave the UFO.
+
+[b]GAMEPAD COMMANDS[/b]
+- [b][Y]:[/b] Press near a UFO en enter it.
+[h1]Driving UFO[/h1]
+- [b][A]:[/b] Move up.
+- [b][X]:[/b] Move down.
+- [b][B]:[/b] Enable/Dsable light beam.
+- [b][RB]:[/b] Drop an item from the UFO hold.
+- [b][Y]:[/b] Leave the UFO.
+
+[b]CHARACTERISTICS[/b]
+- Any player can enter a UFO if he is close enough to it.
+- The first player to enter will be the driver, the others will be passengers.
+- When nobody is driving a UFO, its light beam will only attract the UFO owner.
+- When driven, the light beam attract every object affected by gravity.
+- If an object reach the top of a light beam, it will be added to the UFO hold.
+- If a player reach the top of a light beam, it will automatically enter the UFO.
+- The UFO is static as long as the driver is using no movement key.
+
+[b]EASTER EGGS[/b]
+- [spoiler]The UFO hold may contain unexpected items...[/spoiler]
+
+[b]KNOWN BUGS[/b]
+- The UFO collision box is crappy and do not match its shape correctly.
+- The UFO animations are a bit glitchy.
+- The UFO controls are not really precise and may not go exactly where you want.
+- The UFO is uncontrollable if someone is walking on it.
+
+[b]DEV NOTES[/b]
+[quote=About this mod]It's back from the deads, and it's alive! So that's a mod I started a loooong time ago and abandoned because I couldn't achieve what I wanted with it. Basically I was trying to use the PHYS_Flying physics on a vehicle to make it fly, but that was not working at all X)
+Anyway after messing up with vehicled in the Nitro Engine, I started to imagine another way to make the UFO "fly". So what I did was to simply "freeze" it in the air as long as the player don't try to move it :p And when a movement is required, I add some forces to the vehicle to force it to go in the correct direction ^^
+When the movements were working fine, I started to add some animations that I found in the game files (opening/closing the UFO hold), sadly those animations do not have the same speed and I didn't find a way to give them a custom speed so the rotation of the center of the UFO can look weird sometimes X)
+After that I started to work on the light beam, that part was harder than expected as I could not achieve it with collision mechanisms :/ The first idea I had was to create a very high invisible cylinder and detect what collide with this cylinder... Sadly the collision detection was not at all working as expected and the only collisions I could detect was with pointless items that are not affected by gravity >_< So after trying a few more ideas, I ended up doing it with some math: I get all the objects in a big sphere under the UFO and I compute their distance to the center of the UFO beam to know if they are in it or no.
+Then I wanted to make some kind of storage dedicated to the UFO so I made my own version of the existing inventory ^^ That was almost working perfectly, but for some reasons I could not manage to make the inventory list display correctly :/ So for now I only binded the inventory key to "drop one item"...
+Finally I added a few optional things like the fact that other players can enter the UFO as passengers and that players will automatically enter the UFO when they reach the top of the beam ^^
+And of course a UFO hold was the perfect place to store some easter egg, so I had fun adding random things into it :p
+[/quote]
